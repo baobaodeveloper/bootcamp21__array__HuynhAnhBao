@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript Array</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container d-flex justify-content-center align-items-center p-4">
+      <div
+        class="mb-3 text-center w-50 d-flex flex-column justify-content-center align-items-center"
+      >
+        <label class="form-label">Thêm số vào mảng</label>
+        <input
+          type="number"
+          class="form-control w-50"
+          id="number"
+          placeholder="Thêm số vào mảng"
+          value=""
+        />
+        <button type="button" class="btn btn-success m-3" id="input">
+          Nhập
+        </button>
+        <input
+          type="text"
+          class="form-control d-block w-100"
+          id="array-current"
+          placeholder="Mảng hiện tại"
+        />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <label class="form-label">Tổng Các số dương trong mảng</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="result"
+            id="result1"
+          />
+          <button
+            type="button"
+            class="btn btn-primary m-3"
+            id="calculate-total-positive"
+          >
+            Calculate
+          </button>
+        </div>
+        <div class="col text-center">
+          <label class="form-label">Đếm có bao nhiêu số dương trong mảng</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="result"
+            id="result2"
+          />
+          <button
+            type="button"
+            class="btn btn-success m-3"
+            id="total-number-position"
+          >
+            Calculate
+          </button>
+        </div>
+        <div class="col text-center">
+          <label class="form-label">Tìm số nhỏ nhất trong mảng</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="result3"
+            id="result3"
+          />
+          <button type="button" class="btn btn-secondary m-3" id="min-number">
+            Calculate
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pt-3">
+      <div class="row">
+        <div class="col text-center">
+          <label class="form-label">Số dương nhỏ nhất trong mảng</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="result"
+            id="result4"
+          />
+          <button type="button" class="btn btn-danger m-3" id="min-positive">
+            Calculate
+          </button>
+        </div>
+        <div class="col text-center">
+          <label class="form-label">Tìm số chẵn cuối cùng trong mảng</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="result"
+            id="result5"
+          />
+          <button type="button" class="btn btn-warning m-3" id="even-end">
+            Calculate
+          </button>
+        </div>
+        <div class="col text-center">
+          <label class="form-label">Sắp xếp mảng theo thứ tự tăng dần</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="result"
+            id="result7"
+          />
+          <button type="button" class="btn btn-info m-3" id="incease">
+            Calculate
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
